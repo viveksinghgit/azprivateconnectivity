@@ -25,5 +25,5 @@ variable "subnet_private_endpoint_name" {
 
 variable "storage_account_name" {
   description = "Name of the Storage Account"
-  default     = "vsstoragedemoacct"
+  default     = "pvtteststoragedemoacct"
 }
