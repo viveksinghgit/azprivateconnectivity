@@ -12,7 +12,7 @@ Steps to Test:
    *  Perform nslookup:
      <br />**nslookup _[storageaccountname]_.blob.core.windows.net**
    *  You'll be able to see private IP here which is from "_subnet-private-endpoint_".
-6. Steps to create container and access the storage, upload file:
+6. Steps to access the storage account, create container and upload file:
    * Create container:
      <br />**az storage container create --name _[mycontainer]_ --account-name _[storageaccountname]_ --account-key _[storageaccountkey]_**   (replace with actual values)
    * Upload file:
