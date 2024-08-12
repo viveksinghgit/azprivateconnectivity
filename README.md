@@ -2,7 +2,7 @@
 
 Steps to Test:
 1. Perform nslookup to storage account blob url:
-   \n**nslookup _[storageaccountname]_.blob.core.windows.net** (put your storage account name here).
+   /n**nslookup _[storageaccountname]_.blob.core.windows.net** (put your storage account name here).
 3. You'll able to see public IP here.
 4. Create a VM in "_subnet-private-endpoint_". Login to VM and install Azure CLI using this command:
    \n**curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash**
