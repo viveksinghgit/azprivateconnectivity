@@ -16,4 +16,4 @@ Steps to Test:
    * Create container:
      <br />**az storage container create --name _[mycontainer]_ --account-name _[storageaccountname]_ --account-key _[storageaccountkey]_**   (replace with actual values)
    * Upload file:
-     <br />**az storage blob upload --container-name _[mycontainer]_ --file sample.txt --name sample.txt  --account-name _[storageaccountname]_ --account-key_ [storageaccountkey]_**  (replace with actual values)
+     <br />**az storage blob upload --container-name _[mycontainer]_ --file sample.txt --name sample.txt  --account-name _[storageaccountname]_ --account-key _[storageaccountkey]_**  (replace with actual values)
