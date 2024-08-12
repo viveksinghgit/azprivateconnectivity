@@ -1,4 +1,4 @@
-# azprivateconnectivity
+# Azure Secured Connectivity with Service Endpoint and Private Endpoint
 
 Steps to Test:
 1. Perform nslookup to storage account blob url:
